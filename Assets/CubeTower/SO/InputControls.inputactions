@@ -1,0 +1,113 @@
+{
+    "name": "InputControls",
+    "maps": [
+        {
+            "name": "Mobile",
+            "id": "f90f41c8-a38f-4e6d-b710-2ec765c52f61",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "7f7032fe-d365-4779-92e4-d57d644b19ab",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "4d83f8d0-eab7-49a0-a401-fce0b7680e25",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "880f29fc-cf15-49f5-82cd-8ff753123ba7",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f27e7c10-07a7-4a04-89f2-7d341c4bf072",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Standalone",
+            "id": "360a7a11-5a7d-4750-ba26-ac95a3702b0d",
+            "actions": [
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "e29a8f9f-4780-4690-ae3c-e7f44e193a56",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "b3d48f76-a326-43e6-ad58-ecd5ea7e63a4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4007d01b-9fd6-4f8e-96c4-b52248494b83",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13107fe1-9851-44e6-aed8-9384f8cfadfc",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2a00efe-cb94-45e9-be9a-00813799bb50",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
