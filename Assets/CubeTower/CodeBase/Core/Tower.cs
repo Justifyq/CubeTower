@@ -11,7 +11,6 @@ namespace CubeTower.Core
     {
         private const float MinBoundRange = .25f;
         private const float MaxBoundRange = .75f;
-
         
         public Tower(Map map)
         {
@@ -85,6 +84,9 @@ namespace CubeTower.Core
 
             Cubes.Remove(cube);
 
+            if (Cubes.Count == 0)
+                return;
+            
             for (int i = index; i < Cubes.Count; i++)
             {
                 Cubes[i].SetAttached(i, Cubes[i].Data.PosX);

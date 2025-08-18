@@ -1,5 +1,6 @@
 using CubeTower.Core;
 using CubeTower.Data;
+using CubeTower.UIlts;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -23,7 +24,6 @@ namespace CubeTower.UserInterfaces.Elements
             view.sprite = c.sprite;
             _cube = c;
             _scroll = sr;
-            
         }
 
         public void OnPointerDown(PointerEventData eventData)
